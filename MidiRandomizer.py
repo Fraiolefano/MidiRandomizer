@@ -244,7 +244,7 @@ class MidiRandomizer:
         print("Midi Randomizer")
         print("Manuale di utilizzo:")
         print("-t : aggiunge una variazione temporale in ticks")
-        print("-p r|t|f : modifica gli strumenti del brano")
+        print("-p r|t|d : modifica gli strumenti del brano")
         print("   -p r : in modo totalmente R andomico")
         print("   -p t : in modo casuale ma restando nel contesto della T ipologia dello strumento")
         print("   -p d dictFile : in modo casuale utilizzando un D izionario di strumenti salvato in un file")
