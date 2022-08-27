@@ -1,0 +1,6 @@
+#! /bin/python3
+
+from MidiRandomizer import MidiRandomizer
+from MidiRandomizer import sys
+mr=MidiRandomizer(sys.argv);
+mr.save(mr.randomize())
