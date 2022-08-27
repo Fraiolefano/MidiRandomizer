@@ -241,7 +241,7 @@ class MidiRandomizer:
         midiToSave.save(outputName)
     
     def printManual(self):
-        print("Midi Randomizer__________by Fraiolefano")
+        print("Midi Randomizer")
         print("Manuale di utilizzo:")
         print("-t : aggiunge una variazione temporale in ticks")
         print("-p r|t|f : modifica gli strumenti del brano")
